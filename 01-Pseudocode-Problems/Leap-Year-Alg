@@ -1,0 +1,11 @@
+### Q1: Check if the year is Leap Year or not.
+**Pseudocode:**
+1. Start
+2. Input Year
+3. If (Year % 4 == 0 AND Year % 100!= 0) OR (Year % 400 ==0):
+4.          Output:
+                    Year is Leap Year.
+5. Else:
+            Output: 
+                    Year is not a Leap Year.
+6. Exit.
