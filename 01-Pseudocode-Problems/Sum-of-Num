@@ -1,0 +1,7 @@
+### Q2: Take two numbers and print the sum of both.
+**Pseudocode:**
+1. Start
+2. Input Number 1 and Number 2
+3. Calculate Sum = Number 1 + Number 2
+4. Output Sum
+5. Exit.
