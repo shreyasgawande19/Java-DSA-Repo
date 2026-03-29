@@ -1,0 +1,9 @@
+### Q3: Take a number as input and print the multiplication table for it.
+**Pseudocode:**
+1. Start
+2. Input num
+3. For i = 1 to 10:
+4. Print:
+        `num` + " x " + `i` + " = " + (`num * i`)
+5. End For
+6. Exit
