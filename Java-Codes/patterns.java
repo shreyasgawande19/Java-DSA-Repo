@@ -23,10 +23,25 @@ class patterns{
                 System.out.println();
             }
         }
+        static void pattern4(int n){
+            for(int e=0;e<n;e++){
+                for(int j=n-e-1; j<0;j--){
+                    System.out.print(" ");
+                }
+                for(int j=2*e+1; j<0;j--){
+                    System.out.print("*");
+                }
+                for(int j=n-e-1; j<0;j--){
+                    System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[]args){
         // pattern1();
         // pattern2();
         // pattern3();
+        pattern4(5);
 
     }
 }
