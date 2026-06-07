@@ -2,8 +2,8 @@
 public class binarysearch {
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int target = 12;
+        int[] array = {1, 2, 3, 4, 5, 6, 8, 10, 11};
+        int target = 9;
         int ans = bsearch(array, target);
         System.out.println(ans);
     }
@@ -17,12 +17,10 @@ public class binarysearch {
 
             if (target < arr[mid]) {
                 end = mid - 1;
-            } else if (target > arr[mid]) {
-                start = mid + 1;
             } else {
-                return mid;
+                start = mid + 1;
             }
         }
-        return -1;
+        return arr[start];
     }
 }
