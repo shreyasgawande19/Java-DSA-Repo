@@ -28,10 +28,8 @@ class sortedinfinitearray {
                 end = mid - 1;
             } else if (target > arr[mid]) {
                 start = mid + 1;
-            } else {
-                return mid;
             }
         }
-        return -1;
+        return start;
     }
 }
