@@ -2,8 +2,7 @@
 class findpeakelement {
 
     public static void main(String args[]) {
-
-    }
+        
 
     static int find(int[] nums) {
         int start = 0;
@@ -11,11 +10,13 @@ class findpeakelement {
         while (start < end) {
             int mid = start + (end - start) / 2;
 
-            if (nums) {
+            if (nums[mid]) {
                 end = mid - 1;
             } else if (target > arr[mid]) {
                 start = mid + 1;
-                
+
             }
         }
+        return -1;
     }
+}
